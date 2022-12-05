@@ -1,0 +1,23 @@
+data-path="/usr/app/node-4/data"
+
+bootnodes=["enode://67271c107eefacfc44e9aa8fc3f985ce618c54a401818ba3f26b94707a44954abb2e61f97067dcdfa39a49458166caccc2a60d927e58793d9f409b86b6f8fc54@172.23.0.2:30303"]
+
+rpc-http-enabled=true
+rpc-http-api=["ETH", "NET", "QBFT", "DEBUG", "ADMIN", "PERM"]
+rpc-http-host="0.0.0.0"
+
+rpc-ws-enabled=true
+rpc-ws-host="0.0.0.0"
+
+discovery-enabled=false
+
+p2p-port=30308
+
+host-allowlist=["*"]
+
+rpc-http-cors-origins=["all"]
+
+genesis-file="/usr/app/genesis.json"
+logging=["ALL"]
+revert-reason-enabled=true
+min-gas-price=0
